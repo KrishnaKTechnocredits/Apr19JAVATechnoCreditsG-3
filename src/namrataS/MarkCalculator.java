@@ -1,3 +1,5 @@
+package namrataS;
+
 class MarkCalculator
 		{
 		String calcMark(int marks)
