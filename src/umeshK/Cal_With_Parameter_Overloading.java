@@ -1,3 +1,5 @@
+package umeshK;
+
 class Cal_With_Parameter_Overloading{
 	int x=20;
 	int y =10;
@@ -81,8 +83,7 @@ class Cal_With_Parameter_Overloading{
 		cal.div();
 		cal.test("umesh",1);
 		cal.test("Koli",12);*/
-		//cal.getGrad(87);
+		cal.getGrad(87);
 		
-		cal.getGrad(args[2]);
 	}	
 }
