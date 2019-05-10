@@ -1,4 +1,6 @@
 package kritiG;
+//Assignment 1 Program7:
+//hour minute seconds
 
 public class Program7 {
 	

@@ -1,5 +1,6 @@
 package kritiG;
-
+//Assignment 1 Program1:
+//Simple calculator
 public class Program1 {
 	
 	void sum(int a, int b)

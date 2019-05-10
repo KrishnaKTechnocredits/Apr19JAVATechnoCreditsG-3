@@ -1,4 +1,6 @@
 package kritiG;
+//Assignment 1, Program 2
+//Print name , roll number and marks
 
 public class Program2 {
 	

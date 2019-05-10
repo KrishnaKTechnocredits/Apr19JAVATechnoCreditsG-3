@@ -1,4 +1,6 @@
 package kritiG;
+//Assignment 1 Program6:
+//far to celcius
 
 public class Program6 {
 	

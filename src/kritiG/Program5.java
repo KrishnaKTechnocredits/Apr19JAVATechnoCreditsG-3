@@ -1,4 +1,6 @@
 package kritiG;
+//Assignment 1 Program5:
+//Simple Interest
 
 public class Program5 {
 	
