@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ArrayAssignment1 {
 	static void findMissingNumber(int[] num) {
-		// int[] num = new int[10];
 		for (int i = 1; i <= 10; i++) {
 			boolean flag = false;
 			for (int j = 0; j < num.length; j++) {
@@ -22,8 +21,6 @@ public class ArrayAssignment1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		// System.out.println("Last number is ");
-		// int lastNumber = Integer.parseInt(sc.nextLine());
 		System.out.println("Enter numbers ");
 		String numbers = sc.nextLine();
 		String[] data = numbers.split(" ");
