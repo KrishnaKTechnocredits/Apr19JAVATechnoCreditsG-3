@@ -21,22 +21,22 @@ public class Array4 {
 	}
 
 	static void largest(int[] list) {
-		int count = 0;
+		int count = list[0];
+		int min = list[0];
+
 		for (int i = 0; i < list.length; i++) {
 			if (list[i] > count) {
 				count = list[i];
+
 			}
 
+			if (list[i] < min) {
+				min = list[i];
+			}
 		}
+
 		System.out.println("Largest number in the array is " + count);
-
-		for (int i = 0; i < list.length; i++) {
-			if (list[i] < count) {
-				count = list[i];
-			}
-
-		}
-		System.out.println("Smallest number in the array is " + count);
+		System.out.println("Smallest number in the array is " + min);
 
 	}
 

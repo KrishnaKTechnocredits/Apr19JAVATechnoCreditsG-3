@@ -14,11 +14,11 @@ public class Array6 {
 
 		for (int i = 0; i < first.length; i++) {
 			first[i] = Integer.parseInt(numbers[i]);
-			
-		sc.close();
+
+			sc.close();
 		}
 		// input second array
-		
+
 		System.out.println("Enter another array of numbers ");
 		String num1 = sc.nextLine();
 		String[] numbers1 = num1.split(" ");

@@ -20,24 +20,17 @@ public class Array5 {
 	}
 
 	static void secondLargest(int[] list) {
-		//finding the largest number
-		int count = 0;
+		// finding the largest number
+		int max = 0;
+		int second = 0;
 		for (int i = 0; i < list.length; i++) {
-			if (list[i] > count) {
-				count = list[i];
+			if (list[i] > max) {
+				second = max;
+				max = list[i];
 			}
 		}
-		//using same way to find second largest and checking it is not the same number
-		int cnt =0;
-		for(int j=0; j< list.length; j++)
-		{
-			if( list[j]> cnt && list[j] !=count)
-				cnt = list[j];					
 
-		}
-
-		
-		System.out.println("Second largest number in the array is " + cnt);
+		System.out.println("Second largest number in the array is " + second);
 	}
 
 }
