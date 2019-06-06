@@ -16,25 +16,24 @@ public class String12 {
 	}
 
 	static void seperateDigits(String[] list) {
-		String[] alphabets = new String[list.length];
-		String[] numbers = new String[list.length];
+		String alphabets = "";
+		String numbers = "";
 		for (int j = 0; j < list.length; j++) {
 			{
 				String word = list[j];
-				
 
-					if (word.charAt(0) == '0' || word.charAt(0) == '1' || word.charAt(0) == '2' || word.charAt(0) == '3'
-							|| word.charAt(0) == '4' || word.charAt(0) == '5' || word.charAt(0) == '6'
-							|| word.charAt(0) == '7' || word.charAt(0) == '8' || word.charAt(0) == '9')
-						numbers[j] = word;
-					else
-						alphabets[j]= word;
+				// is alphabet
+				// is digit
+				if (Character.isDigit(word.charAt(0)))
+					numbers+= word+",";
+				else
+					alphabets+= word + ",";
 
 			}
 
 		}
-		System.out.println("Numeric : " + Arrays.toString(numbers));
-		System.out.println("String: " + Arrays.toString(alphabets));
+		System.out.println("Numeric : " + numbers);
+		System.out.println("String: " + alphabets);
 
 	}
 }
