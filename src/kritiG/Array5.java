@@ -20,7 +20,7 @@ public class Array5 {
 	}
 
 	static void secondLargest(int[] list) {
-		// finding the largest number
+		
 		int max = 0;
 		int second = 0;
 		for (int i = 0; i < list.length; i++) {
